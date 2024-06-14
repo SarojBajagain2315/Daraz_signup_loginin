@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign_in daraz</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="shortcut icon" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAJQAAACUCAMAAABC4vDmAAAAq1BMVEX4VgXC//r///+////7RwDctp74VADB//z6SwDio4P0aTfI6uTF8uzxckn5UgD4TQD/+vf+7eb8QgD4XCD8vKb8qo/2WQnxcD7Q1cPzaDDC+vPXw63H7eHE9eztfE394tj8y7z6iWD3ZiT6hFn7noD6dEv9wrD5jWf6gV74e0v5elP6lHD8tJ35ZC/N3tDudkDUyrXgq4vmmXjavaXpi2Tsg1fdspPnlG3918zAOxmZAAAFKUlEQVR4nO2ca3eiOhSGY0M3wdoEQRGtVLTaztR6qbfp//9lJ9GqXIKdOQuSfOD9VlfX8nHvl2QnJBvdSeSO4u54EqBq5b9M45Er+36U/2g0fQ8Io1AxEwLKCMymo5+h3LjpKQBKgHmT1/ZtqHjGqCqgsyiZvd6Aao89dUFKCLzZqAgq9pkGoqMY6sihppaOKH0LrDc3D+W+EY1MXORXOwvl/iZakbhYs52GcsfamTjVezsFNTeAiVO9JKE6lm6ek6zuFWoU6PX4RcDiC1RP2/iUFfXdb6iOp5vlqmMCOVS7aUjyhMAfHaE+jHjyziLTIxQYFCgxObscKjbIUULWB4caKy+gbou+u6i9MCp7PH9ohGKjbC5kvaJuaVBQUtXK5qhXlqUAHoNSZgbwUWmrO3IfLVdeGT+xPJND/wFjHPY0169pQfPBbjRw654YhHWCatg4cqgxRcc3FA+WHa4sQwbkCxTHwuuezuXaVQkoYa1PygzASkFxaw03BlgrDcWxuLWIbmtloYTjt33N1spDCWs5gVZryaC4tR52OnMoheLBaoRN9ftwP0BxrMEW6bJWIRTPYcuheoJVDCWw1r6WWN2C4jncaKm6f4C617KvU0PVUDVUDVVD1VA1VA0lZyKTITYMitJ9uAsbhVgaoMDqhbj16O2XuCCFyqGABdsWtluPlPibSI6lGAoYc4aChEPxkE22A1kO1UJRtl/axy08ASX+fg7tPJZKKG6mpzPCCQohRv4MczlUBwVkcYjOUbHPUPxj/7OF9UABI5vE03aFEgFsPqVzqAiKmynEiS9OQomTPmlrKYGSPGYpKG4t6iSspQKKTA6DjJntDBRPLxwu1qoeino7ydCdhRKO762/M1w1FGUr2WySi9Txf8nqNIpVCwUWbCPpvCuDElPQRnivUiiGnILZTRopgUWCLa4SCjw+DBSVcgVQwoJDuzoogC0urJiKIiUGh6hCKLq/UfAWQVFvFVaZPuLcKHjlUGLGxpUa/Z+hgIBzGj/NgWL0UsSYAkVJ/7qS0ASVGRKA9JPViwmRgnSNYESkKPuTmR61R4qSXm5ZqjlSfP0uWWXpjRSfsfNrGb2Ropas/NMINdhbZLWWLER1QuFwf5Au2XVCNbBdWGvpg7oJXEPVUDVUDVVD1VA1VA1VQ9VQfy+2+/9QTlXH38BfF1fht2TjsLqDgpQ6rX/HsnHrEFR4pBKsQP7m84bwYD2p+PApZc0bL9UlSPZypeDkKSW7h7/NoTgrz5ScswYSONk3nwVhij59ZRdWwOpvCzYNkkji/oXKM8OUrGQv1ZOZs5d75UfRGd3INqIuZoocpOHQPjB0KLIWjraBpttPYF3efGbMFD5rvJBFredl1lrcTDvN154YzbyVxIODumGgSEDY/dVaePCEtCMJAel9H5uw8fJZ+62is6i3WmKuYVlmKqdVAvGdKPpclFPJAXop57cB8bySChTol3gPuSyxOfrSfwsvIxIjo1o4CIE/Qndzw0JFf7no7su0fgkd0VliYspwdxTQY7uLjlHPH+seodyZQaGCRfvU1yU2pCmPkPVx7oAzNuYBZM1rr6CFIQkE/+vaVSk24yo68jrJ/lMfJtxER2yabh829fRTXXqtXRqtTbXHio3P/d+uLem6emMF3vzSky7RJ++1yp2tn0Th40qS7Cj4tdB2s5oE8Z0c6s7tIi3DKEPTVF/PTJfK0Zun2vDAvN9faYpck9H2dEEUcjGymOfajEo6n7bjuboWdW+5DqNc/wE8W13oT8Df9AAAAABJRU5ErkJggg==" type="image/x-icon">
+    <style>
+        *{
+            padding: 0px;
+            margin: 0px;
+        }
+        .head{
+            background-color: rgb(248,86,6);
+            padding: 20px;
+            padding-bottom: 10px;
+            display: flex;
+        }
+        .head img{
+            height: 50px;
+            margin-left: 70px;
+        }
+        .head a{
+            color: white;
+            text-decoration: none;
+        }
+        .Categories{
+            margin-left: 30px;
+            margin-top: 20px;
+            font-weight: bold;
+        }
+        .box{
+            width: 646px;
+            height: 38px;
+            background-color: white;
+            border-radius: 10px;
+            margin-left: 20px;
+            margin-top: 15px;
+        }
+        .login{
+            margin-left: 30px;
+            margin-top: 20px;
+            font-weight: bold;
+        }
+        .sign_up{
+            margin-left: 30px;
+            margin-top: 20px;
+            font-weight: bold;
+        }
+        .en{
+            margin-left: 30px;
+            margin-top: 20px;
+            font-weight: bold;
+        }
+        .cart{
+            margin-left: 30px;
+            margin-top: 5px;
+            font-size: 50px;
+        }
+        .signup{
+            width: 1349px;
+            height: 450px;
+            background-color: whitesmoke;
+            display: flex;
+            flex-wrap: wrap;
+        }
+        .signup h3{
+            padding-top: 50px;
+            margin-left: 280px;
+            font-size: 25px;
+            color: rgb(66,66,66);
+        }
+        .signup h6{
+            padding-top: 50px;
+            margin-left: 300px;
+        }
+        a{
+            text-decoration: none;
+        }
+        .Login{
+            color: rgb(26,156,183);
+        }
+        .signupbox{
+            height: 350px;
+            width: 800px;
+            margin-left: 280px;
+            background: white;
+            padding: 25px;
+            display: flex;
+        }
+        form{
+            width: 380px;
+        }
+        input{
+            width: 380px;
+            height: 40px;
+            border-color: rgb(221,221,221);
+            padding-left: 10px;
+            border:1px solid;
+        }
+        .form .reset{
+            padding-left: 230px;
+            color:rgb(4,156,185);
+        }
+        button{
+            width: 308px;
+            height: 48px;
+            color: white;
+            background-color: rgb(245,114,36);
+            border: none;
+            margin-top: 17px;
+            margin-left: 40px;
+            font-size: 17px;
+        }
+        span{
+            color: rgb(117,117,117);
+            margin-left: 40px;
+        }
+        .facebook{
+            width: 150px;
+            background-color: rgb(59,89,152);
+            padding: 0px;
+            text-align: center;
+        }
+        .google{
+            width: 150px;
+            background-color: rgb(211,72,54);
+            margin-left: 20px;
+            text-align: center;
+        }
+        button a{
+            color: white;
+            font-weight: bold;
+            text-align: center;
+        }
+        button .l{
+            text-align: center;
+            padding-right: 10px;
+            color: white;
+            font-style: none;
+            font-size: 20px;
+        }
+        .name{
+            width: 308px;
+            height: 48px;
+            margin-left: 40px;
+        }
+        .Full{
+            margin-left: 40px;
+        }
+        .checkbox{
+            height: 15px;
+            width: 15px;
+            
+            padding: 0px;
+        }
+        .check{
+            margin: 0px;
+        }
+        .i{
+            margin-left: 40px;
+        }
+    </style>
+</head>
+<body>
+    <div class="head">
+        <div class="logo"><a href=""><img src="data:image/png;base64,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"></a></div>
+        <a href="" class="Categories">Categories</a>
+        <div class="box"></div>
+        <a href="Daraz.html" class="login"><i class='bx bx-user'></i>Login</a>
+        <a href="Daraz_signup.html"class="sign_up">Sign up</a>
+        <a href="" class="en"><i class='bx bx-globe' ></i>EN</a>
+        <a href="" class="cart"><i class='bx bx-cart' ></i></a>
+    </div>
+    <div class="signup">
+        <h3>Create your Daraz Account</h3>
+        <h6>Already member?<a href="Daraz.html" class="Login">Login</a> here.</h6>
+        <div class="signupbox">
+            <div class="form">
+                <label>Phone Number*</label><br>
+                <input type="number" name="Email" placeholder="Please enter your phone number"><br><br>
+                <label class="verify">Verification code from whatsapp*</label><br>
+                <input type="number" name="pass" placeholder="Verification code"><br>
+                <a href="" class="reset">Get code via other method</a>
+                <label class="pass">Password*</label><br>
+                <input type="password" name="pass" placeholder="Minimum 6 character with a numberand a letter"><br><br>
+                <lable for="DOB">Birthday</lable>
+                <input type="date" id="DOB" name="DOB" required><br><br>
+            </div>
+            <div class="link">
+                <label class="Full">Full name*</label><br>
+                <input type="text" name="Email" placeholder="Enter your first and last name" class="name"><br><br>
+                <div class="i">
+                    <input type="checkbox" name="check" class="checkbox"><span class="check">I'd like to receive exclusive offers and promotions<br> via SMS</span><br>
+                </div>
+                <button><a href="">SIGN UP</a></button><br>
+                <div class="i"> <span class="check">By clicking “SIGN UP”, I agree to Daraz's Terms of Use and Privacy Policy</span><br></div>
+                <span>or,Sign up with</span><br>
+                <button class="facebook"><a href="https://www.facebook.com/"><span class="l">f</span> Facebook</a></button>
+                <button class="google"><a href="https://myaccount.google.com/"><span class="l">G+</span> Google</a></button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
